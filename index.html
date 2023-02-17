@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.C.F Readers Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>R.C.F Readers Form</h1>
+      <h2>Contact Form</h2>
+      <form
+        action="https://formsubmit.co/affc18509e5135cd9e928ede3be76b3c"
+        method="POST"
+      >
+        <p>Name</p>
+        <input
+          type="text"
+          name="Name"
+          pattern="[a-z]*"
+          placeholder="Full Name"
+          required
+        /><br />
+        <p>Email</p>
+        <input type="email" name="Email" placeholder="Email" required /><br />
+        <p>Phone No.</p>
+        <input
+          type="tel"
+          name="Phone Number"
+          placeholder="+234"
+          pattern="[0-9]*"
+          required
+        /><br />
+        <p>Gender</p>
+        <select name="Gender" id="Gender">
+          <option>Male</option>
+          <option>Female</option></select
+        ><br />
+        <button type="submit" id="submit-btn">Send</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
